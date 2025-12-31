@@ -10,7 +10,6 @@ function Navbar() {
     <nav
       style={{
         padding: "15px",
-        display: "flex",
         justifyContent: "space-between",
         background: theme === "light" ? "#eee" : "#333",
         color: theme === "light" ? "#000" : "#fff",
