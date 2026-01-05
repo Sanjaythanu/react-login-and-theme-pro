@@ -8,10 +8,8 @@ import { ThemeProvider } from "./context/ThemeContext";
 function App() {
   return (
     <AuthProvider>
-      <ThemeProvider>
         <Navbar />
         <Home />
-      </ThemeProvider>
     </AuthProvider>
   );
 }
